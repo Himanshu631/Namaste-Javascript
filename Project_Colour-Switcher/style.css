@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+body nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    margin-top: 0.2%;
+    padding: 1%;
+    background: yellow;
+    border-radius: 2rem;
+}
+
+.nav-btn {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    font-weight: 650;
+    background: orangered;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.nav-btn:active{
+    cursor: none;
+}
+
+.nav-btn:hover{
+    color: #ffffff;
+    font-size: 1.51rem;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-btn{
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.col-btn:active{
+    cursor: none;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#red:hover{
+    color: red;
+    font-size: 2rem;
+}
+
+#green:hover{
+    color: rgb(0, 199, 0);
+    font-size: 2rem;
+}
+
+#pink:hover{
+    color: rgb(255, 27, 255);
+    font-size: 2rem;
+}
+
+#blue:hover{
+    color: blue;
+    font-size: 2rem;
+}
+
