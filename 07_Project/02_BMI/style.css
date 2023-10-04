@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(250, 184, 184);
+    color: rgb(17, 17, 17);
+    margin: 0px;
+}
+
+.navbar {
+    background-color: #e13d3d;
+    margin: 0rem;
+}
+
+.navbar h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.container h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.form-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
